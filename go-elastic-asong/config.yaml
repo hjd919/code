@@ -1,0 +1,5 @@
+elastic:
+  host: "es-cn-n6w1r3anu0006zb5t.public.elasticsearch.aliyuncs.com"
+  port: 9200
+  user: "elastic"
+  password: "XZ527shortvideo"

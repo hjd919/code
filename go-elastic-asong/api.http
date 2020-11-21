@@ -1,0 +1,28 @@
+@host = 127.0.0.1:8080
+# @host = task.yz210.com
+
+@contentType = application/json
+
+### 
+POST http://{{host}}/api/user/create HTTP/1.1
+Content-Type: {{contentType}}
+
+{
+    "username":"username",
+    "nickname":"nickname",
+    "phone":"phone",
+    "age":15,
+    "ancestral":"ancestral"
+}
+
+### 
+GET http://{{host}}/api/user/info HTTP/1.1
+Content-Type: {{contentType}}
+
+{
+    "username":"username",
+    "nickname":"nickname",
+    "phone":"phone",
+    "age":15,
+    "ancestral":"ancestral"
+}
